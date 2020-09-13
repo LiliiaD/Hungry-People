@@ -1,0 +1,239 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+@font-face {
+font-family: 'Banny Round';
+font-style: normal;
+font-weight: normal;
+src: local('Banny Round'), url('Banny-Round.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Banny Light Round';
+font-style: normal;
+font-weight: normal;
+src: local('Banny Light Round'), url('Banny-LightRound.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Banny Bold Round';
+font-style: normal;
+font-weight: normal;
+src: local('Banny Bold Round'), url('Banny-BoldRound.woff') format('woff');
+}
+
+
+body{
+	font-family: 'Open Sans'
+}
+.wrapper{}
+.top-block{
+	height: 800px;
+	width: 1440px;
+	background: url('../img/header-bg.png') center center no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+.nav-left{
+	margin: 0 30px 0 80px;
+}
+.nav-left>ul{
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.nav-left>ul li{
+	width: 133px;
+	text-align: center;
+}
+.nav-left>ul li a{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12px;
+    line-height: 18px;
+    
+}
+.logo{
+	margin: 100px 0 0 0;
+	max-width: 100%;
+}
+.nav-right{
+	margin: 0 80px 0 30px;
+}
+.nav-right>ul{
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.nav-right>ul li{
+	width: 133px;
+	text-align: center;
+}
+.nav-right>ul li a{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12px;
+    line-height: 18px;
+}
+.top-block__bottom{
+	display: flex;
+	align-items: stretch;
+}
+.bottom-schedule{
+	width: 295px;
+	height: 700px;
+	position: relative;
+}
+.schedule{ 
+position: absolute;
+top: 100px;
+width: 700px;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+color: #FFFFFF;
+transform: rotate(-90deg);
+margin-left: -266px;
+margin-top: 243px;
+}
+
+
+.main-title{
+	display: flex;
+	flex-direction: column;
+	width: 849px;
+}
+.subtitle{
+	font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    margin-top: 225px;
+}
+.title-name{
+	font-family: 'Banny Round';
+	color: #ffffff;
+	font-size: 96px;
+    line-height: 139px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+.underline{
+	align-items: center;
+    text-align: center;
+}
+.buttons{
+	align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.buttons>a{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	font-size: 12px;
+    line-height: 60px;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.buttons>a:first-child{
+	margin-right: 40px;
+}
+.buttons>a:hover{
+	background: #E8C300;
+}
+.circle-button{
+	align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 690px;
+    top: 657px;
+}
+.circle{
+	position:absolute;
+    right: 16.67%;
+    top: 16.67%;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+.arrow{
+	position: absolute;
+	top: 25.5px;
+	right: 23px;
+    z-index: 2; 
+}
+.social-network{
+	padding-top: 239px;
+}
+.social-network>a{
+	display: block;
+	margin-left: 155px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.social-network>a:nth-child(1){
+	padding: 19.5px 25px;
+}
+.social-network>a:nth-child(2){
+	padding: 21px 20px;
+}
+.social-network>a:nth-child(3){
+	padding: 21px;
+}
