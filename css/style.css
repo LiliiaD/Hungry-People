@@ -58,15 +58,18 @@ src: local('Banny Bold Round'), url('Banny-BoldRound.woff') format('woff');
 
 
 body{
-	font-family: 'Open Sans'
+	font-family: 'Open Sans';
+	font-weight: bold;
 }
-.wrapper{}
+.wrapper{
+	
+}
 .top-block{
 	height: 800px;
 	width: 1440px;
 	background: url('../img/header-bg.png') center center no-repeat;
 	background-size: cover;
-	position: absolute;
+	
 }
 .header{
 	display: flex;
@@ -236,4 +239,55 @@ margin-top: 243px;
 }
 .social-network>a:nth-child(3){
 	padding: 21px;
+}
+
+.about{
+    height: 676px;
+    width: 1440px;
+    display: flex;
+}
+
+.about__text{
+	width: 720px;
+    min-width: 720px;
+    padding: 217px 40px 217px 81px;
+    
+}
+.title{
+	font-family: 'Banny Round';
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.line{
+	text-align: center;
+}
+ 
+.text-bold{
+
+	font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.text-norm{
+	font-weight: normal;
+	text-align: center;
+}
+.about-image{
+	width: 720px;
+}
+.about-img{
+	display: block;
+	margin: 50px 154px 0 -10px;
+}
+.about-rect{
+position: absolute;
+width: 250px;
+height: 250px;
+border: 20px solid #E8C300;
+filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+border-radius: 5px;
+left: 1111px;
+top: 1013px;
 }
