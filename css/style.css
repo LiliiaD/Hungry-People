@@ -51,6 +51,22 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
+
+
+/*
+@media (max-width: 992px){
+    .container{
+    	max-width: 750px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+    	max-width: none;
+    }
+}
+*/
+
 .top-block{
 	height: 100vh;
 	width: 100%;
@@ -119,13 +135,13 @@ body{
 }
 .schedule{ 
 position: absolute;
-top: 355px;
+top: 225px;
 left: 0;
 font-size: 12px;
 line-height: 12px;
 color: #FFFFFF;
-transform: rotate(-90deg);
-margin-left: -115px;
+writing-mode: vertical-lr;
+transform: rotate(180deg);
 }
 
 
@@ -228,6 +244,7 @@ margin-left: -115px;
 .social-network>a:nth-child(3){
 	padding: 21px;
 }
+
 .about{
     height: 675px;
     width: 100%;
@@ -274,6 +291,7 @@ margin-left: -115px;
 }
 .about-img{
 	display: block;
+	max-width: 100%;
 	margin: 50px 74px 0 -10px;
 }
 .about-rect{
@@ -286,7 +304,6 @@ margin-left: -115px;
     right: 0px;
     top: 213px;
 }
-
 .team{
 	height: 675px;
     width: 100%;
@@ -312,6 +329,7 @@ margin-left: -115px;
 }
 .team-img{
 	display: block;
+	max-width: 100%;
 	margin: -50px 0 50px 63px;
 }
 .team-rect{
@@ -330,7 +348,6 @@ margin-left: -115px;
 	padding: 117px 20px 0 20px;
 	color: #ffffff;
 }
-
 .book-table{
 	height: 675px;
 	width: 100%;
@@ -376,6 +393,7 @@ margin-left: -115px;
 }
 .book-img{
     display: block;
+    max-width: 100%;
     margin: 50px 0 -50px 0;
 }
 .book-rect{
@@ -394,7 +412,6 @@ margin-left: -115px;
     line-height: 100px;
     text-align: center;
 }
-
 .specialties{
 	width: 100%;
 	height: 675px;
@@ -419,6 +436,7 @@ margin-left: -115px;
 	position: relative;
 }
 .specialties-img{
+	max-width: 100%;
 	margin: -50px -10px 50px 75px;
 }
 .specialties-rect{
@@ -436,7 +454,6 @@ margin-left: -115px;
 	color: #ffffff;
 	padding: 117px 0 0 40px;
 }
-
 .menu{
 	width: 100%;
 	height: 920px;
@@ -496,7 +513,6 @@ margin-left: -115px;
 .list-iteam_last{
 	height: 36px;
 }
-
 .private-events{
 	width: 100%;
 	height: 675px;
@@ -526,6 +542,7 @@ margin-left: -115px;
 
 }
 .wed-img{
+	max-width: 100%;
 	margin: -50px -129px -50px 0;
 }
 .wed-title{
@@ -569,13 +586,13 @@ margin-left: -115px;
 .corporate__row{
 	display: flex;
 	overflow: hidden;
+	padding-left: 40px;
 }
 .corporate-title{
 	width: 80px;
 	height: 475px;
 	border-radius: 5px 0px 0px 5px;
     background: #000000;
-    margin-left: 40px;
     z-index: 2;
 }
 .text-corporate{
@@ -587,10 +604,14 @@ margin-left: -115px;
     font-size: 24px;
     line-height: 80px;
     writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
 }
 .corporate-img{
-	margin-top: -50px;
-	margin-left: -129px;
+	max-width: 100%;
+	margin: -50px 0 -50px -129px;
+	overflow: hidden;
 }
 .corporate-rect{
 	position: absolute;
@@ -602,20 +623,31 @@ margin-left: -115px;
     right: 0px;
     top: 113px;
 }
-
 .images__row{
     width: 100%;
     height: auto;
     min-height: 360px;
     display: flex;
 }
-.images-left{
-	width: 50%;
-	background: url('../img/img1.png') top right 360px no-repeat, url('../img/img2.png') right no-repeat;
+.images-first{
+	width: 25%;
+	background: url('../img/img1.png') center no-repeat;
+	background-size: cover;
 }
-.images-right{
-	width: 50%;
-	background: url('../img/img3.png') left no-repeat, url('../img/img4.png') left 360px top no-repeat;
+.images-second{
+	width: 25%;
+	background: url('../img/img2.png') center no-repeat;
+	background-size: cover;
+}
+.images-third{
+	width: 25%;
+	background: url('../img/img3.png') center no-repeat;
+	background-size: cover;
+}
+.images-fourth{
+	width: 25%;
+	background: url('../img/img4.png') center no-repeat;
+	background-size: cover;
 }
 
 .contact__form{
@@ -691,9 +723,7 @@ textarea{
 	margin-right: 10px;
 }
 .map{
-	height: 475px;
-	background: url('../img/map.png') center no-repeat;
-	background-size: cover;
+	
 }
 .footer{
 	height: 100px;
