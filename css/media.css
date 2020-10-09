@@ -419,3 +419,262 @@
 
 
 }
+
+@media (max-width: 767px){
+    .container{
+    	max-width: none;
+    }
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .logo{
+        margin: auto;
+    }
+    .header{
+        position: relative;
+        height: 50px;
+    }
+    .menu-bur{
+        width: 45px;
+        height: 16px;
+        border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+        opacity: 0.9;
+        position: absolute;
+        left: 25px;
+        top: 35px;
+        z-index: 1;
+    }
+     .top-block{
+    height: 100%;
+    min-height: 640px;
+    }
+    .bottom-schedule{
+        width: 64px;
+        height: 590px;
+    }
+    .schedule{ 
+    top: 148px;
+    }
+    .subtitle{
+    margin-top: 150px;
+    font-size: 11px;
+    }
+    .title-name{
+    width: 240px;
+    font-size: 28px;
+    line-height: 95px;
+    }
+    .buttons{
+        margin-top: 20px;
+    }
+    
+    .buttons>a:first-child{
+    margin-right: 0;
+    margin-bottom: 30px;
+    }
+    .social-network{
+    padding-top: 148px;
+    }
+    .social-network>a{
+     margin-left: 3px;
+    }
+    .circle-button{
+    left: 100px;
+    top:475px
+    }
+    .about__row{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        height: 828px;
+    }
+    .about__text{
+        min-width: 350px;
+        padding: 50px 20px 50px 20px; 
+    }
+    .about__image{
+    width: 100%;
+    }
+    .about-img{
+    margin:0;
+    }
+    .about-rect{
+        top: 80px;
+    }
+
+    .team{
+        height: 828px;
+    }
+    .team-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-title {
+        height: 80px;
+        font-size: 12px;
+        line-height: 80px;
+    }
+    .team-image{
+        width: 100%;
+    }    
+    .team-img{
+        margin: -30px 0 0 0;
+    }
+    .team-rect{
+        bottom: 85px;
+    }
+    .team-text{
+        width: 100%;
+    }
+    
+    .book-table{
+        height: 873px;
+    }
+    .book-content{
+        flex-direction: column;
+        height: 462px;
+    }
+    .book-form{
+        width: 100%;
+        padding: 50px 40px 0 40px;
+    }
+    .working-hours{
+        font-size: 8px;
+    }
+   
+    .book-img{
+        margin: 30px 0 0 0;
+    }
+    .book-image{
+        width: 100%;
+    }
+    .book-rect{
+        top: 111px;
+    }
+    .specialties{
+        height: 828px;
+    }
+    .specialties-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .specialties-image{
+        width: 100%
+    }
+    .specialties-img{
+        margin: -30px -10px 0 0;
+    }
+    .specialties-rect {
+        bottom: 86px;
+    }
+    .specialties-text{
+         width: 100%;
+        padding: 10px 10px 0 10px;
+    }
+    .menu{
+        padding: 50px 0;
+        height: 940px;
+    }
+    .menu-text{
+        width: 333px;
+        font-size: 11px;
+    }
+    .menu-iteam {
+        margin: 20px 0;
+    }
+    .menu-iteam>ul li{
+        width: 50px;
+    }
+    .menu-iteam>ul li a {
+        font-size: 11px;
+        line-height: 40px;
+    }
+    .list-iteam {
+        height: 90px;
+    }
+    .list-up{
+        font-size: 13px; 
+        letter-spacing: 0.2px;   
+    }
+    .list-down{
+        font-size: 8px;    
+    }
+
+    .private-events{
+        height: 878px;
+    }
+    .events-content{
+        height: 352px;
+        flex-direction: column;
+    }
+    .wedding{
+        width: 100%;
+    }
+    .wed-img{
+        max-width: 100%;
+        margin: -36px -105px -35px 0;
+        }
+    .corporate{
+            width: 100%;
+    }
+    .corporate__row{
+        display: flex;
+        overflow: visible;
+    }
+    .events-details{
+        display: none;
+        line-height: 40px;
+    }
+        .corporate-title{
+        height: 375px;
+        margin-left: 20px;
+        }
+        .corporate-img{
+        margin: 0;
+        }
+        .corporate-rect{
+        top: 83px;
+        }
+
+        .images__row{
+            min-height: 90px;
+        }
+        
+        .contact__form {
+            margin: 50px 0 50px 0;
+        }
+        .contact-details {
+            margin-top: 30px;
+        }
+        
+        .form-details{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        textarea{
+            margin-top: 0;
+        }
+     
+        .contact__form>a{
+            font-size: 7px;
+            line-height: 14px;
+        }
+        
+        .contact-send{
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+    
+      
+    
+
+
+
+
+}

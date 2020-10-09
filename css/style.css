@@ -52,17 +52,6 @@ body{
     margin: 0 auto;
 }
 
-
-/*
-
-
-@media (max-width: 767px){
-    .container{
-    	max-width: none;
-    }
-}
-*/
-
 .top-block{
 	height: 100vh;
 	width: 100%;
@@ -717,9 +706,6 @@ textarea{
 	color: #E8C300;
 	font-weight: 900;
 	margin-right: 10px;
-}
-.map{
-	
 }
 .footer{
 	height: 100px;
