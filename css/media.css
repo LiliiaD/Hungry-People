@@ -454,7 +454,7 @@
     }
      .top-block{
         height: 100%;
-        min-height: 640px;
+        min-height: 660px;
     }
     .bottom-schedule{
         width: 70px;
@@ -472,7 +472,7 @@
     }
     .title-name{
     width: 220px;
-    font-size: 27px;
+    font-size: 26px;
     line-height: 95px;
     }
     .buttons{
@@ -491,7 +491,7 @@
     }
     .circle-button{
     left: auto;
-    bottom: 50px;
+    bottom: 30px;
     }
     .about__row{
         display: flex;
