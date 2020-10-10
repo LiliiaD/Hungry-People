@@ -467,16 +467,20 @@
         align-items: center;
     }
     .subtitle{
-    margin-top: 150px;
-    font-size: 11px;
+    margin-top: 170px;
+    font-size: 10px;
     }
     .title-name{
     width: 220px;
-    font-size: 26px;
-    line-height: 95px;
+    font-size: 25px;
+    line-height: 72px;
     }
     .buttons{
         margin-top: 20px;
+    }
+    .buttons>a{
+        height: 48px;
+        line-height: 48px;
     }
     
     .buttons>a:first-child{
