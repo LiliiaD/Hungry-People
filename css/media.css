@@ -448,24 +448,31 @@
         top: 35px;
         z-index: 1;
     }
+    .top-block__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
      .top-block{
-    height: 100%;
-    min-height: 640px;
+        height: 100%;
+        min-height: 640px;
     }
     .bottom-schedule{
-        width: 64px;
+        width: 70px;
         height: 590px;
     }
     .schedule{ 
     top: 148px;
+    }
+    .main-title{
+        align-items: center;
     }
     .subtitle{
     margin-top: 150px;
     font-size: 11px;
     }
     .title-name{
-    width: 240px;
-    font-size: 28px;
+    width: 220px;
+    font-size: 27px;
     line-height: 95px;
     }
     .buttons{
@@ -480,20 +487,21 @@
     padding-top: 148px;
     }
     .social-network>a{
-     margin-left: 3px;
+     margin-left: 6px;
     }
     .circle-button{
-    left: 100px;
-    top:475px
+    left: auto;
+    bottom: 50px;
     }
     .about__row{
         display: flex;
         flex-direction: column;
     }
     .about{
-        height: 828px;
+        height: 878px;
     }
     .about__text{
+        width: 100%;
         min-width: 350px;
         padding: 50px 20px 50px 20px; 
     }
@@ -501,14 +509,14 @@
     width: 100%;
     }
     .about-img{
-    margin:0;
+    margin:0 auto;
     }
     .about-rect{
-        top: 80px;
+        top: 170px;
     }
 
     .team{
-        height: 828px;
+        height: 958px;
     }
     .team-content{
         display: flex;
@@ -523,17 +531,17 @@
         width: 100%;
     }    
     .team-img{
-        margin: -30px 0 0 0;
+        margin: 0 auto;
     }
     .team-rect{
-        bottom: 85px;
+        bottom: 170px;
     }
     .team-text{
         width: 100%;
     }
     
     .book-table{
-        height: 873px;
+        height: 1058px;
     }
     .book-content{
         flex-direction: column;
@@ -548,16 +556,16 @@
     }
    
     .book-img{
-        margin: 30px 0 0 0;
+        margin: 0 auto;
     }
     .book-image{
         width: 100%;
     }
     .book-rect{
-        top: 111px;
+        top: 170px;
     }
     .specialties{
-        height: 828px;
+        height: 958px;
     }
     .specialties-content{
         display: flex;
@@ -567,10 +575,10 @@
         width: 100%
     }
     .specialties-img{
-        margin: -30px -10px 0 0;
+        margin: 0 auto;
     }
     .specialties-rect {
-        bottom: 86px;
+        bottom: 170px;
     }
     .specialties-text{
          width: 100%;
@@ -581,11 +589,14 @@
         height: 940px;
     }
     .menu-text{
-        width: 333px;
+        width: 100%;
         font-size: 11px;
     }
     .menu-iteam {
-        margin: 20px 0;
+        margin: 20px auto;
+    }
+    .menu-iteam>ul{
+        flex: 1 1 auto;
     }
     .menu-iteam>ul li{
         width: 50px;
@@ -606,69 +617,78 @@
     }
 
     .private-events{
-        height: 878px;
+        height: 1258px;
     }
     .events-content{
-        height: 352px;
+        height: 1158px;
         flex-direction: column;
     }
     .wedding{
         width: 100%;
+        margin-bottom: 40px;
+    }
+    .wedding__row {
+        justify-content: center;
     }
     .wed-img{
         max-width: 100%;
-        margin: -36px -105px -35px 0;
-        }
+        margin: -51px -105px -35px 0;
+    }
+    .wed-title{
+        height: 475px;
+    }
+    .wed-rect {
+        top: 123px;
+    }
     .corporate{
             width: 100%;
     }
     .corporate__row{
-        display: flex;
-        overflow: visible;
+      justify-content: center;
     }
     .events-details{
-        display: none;
         line-height: 40px;
+        margin-top: -50px;
     }
-        .corporate-title{
-        height: 375px;
-        margin-left: 20px;
-        }
-        .corporate-img{
-        margin: 0;
-        }
-        .corporate-rect{
-        top: 83px;
-        }
+    .corporate-title{
+        height: 477px;
+        margin-left: 28px;
+    }
+    .corporate-img{
+            margin: -49px 0 -36px -105px;
+    }
+    .corporate-rect{
+        top: 123px;
+    }
 
-        .images__row{
-            min-height: 90px;
-        }
+    .images__row{
+        min-height: 156px;
+    }
         
-        .contact__form {
-            margin: 50px 0 50px 0;
-        }
-        .contact-details {
-            margin-top: 30px;
-        }
+    .contact__form {
+        margin: 50px 0 30px 0;
+    }
+    .contact-details {
+        margin-top: 30px;
+    }
         
-        .form-details{
-            width: 100%;
-            margin-bottom: 5px;
-        }
-        textarea{
-            margin-top: 0;
-        }
+    .form-details{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    textarea{
+        margin: 0;
+    }
      
-        .contact__form>a{
-            font-size: 7px;
-            line-height: 14px;
-        }
+    .contact__form>a{
+        font-size: 7px;
+        line-height: 14px;
+    }
         
-        .contact-send{
-            width: 100%;
-            margin-top: 10px;
-        }
+    .contact-send{
+        width: 100%;
+        margin-top: 10px;
+    }
         
     
       
