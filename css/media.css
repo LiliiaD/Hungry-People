@@ -445,7 +445,7 @@
         opacity: 0.9;
         position: absolute;
         left: 25px;
-        top: 35px;
+        top: 45px;
         z-index: 1;
     }
     .top-block__bottom{
@@ -461,7 +461,7 @@
         height: 590px;
     }
     .schedule{ 
-    top: 148px;
+    top: 208px;
     }
     .main-title{
         align-items: center;
@@ -488,7 +488,7 @@
     margin-bottom: 30px;
     }
     .social-network{
-    padding-top: 148px;
+    padding-top: 208px;
     }
     .social-network>a{
      margin-left: 6px;
